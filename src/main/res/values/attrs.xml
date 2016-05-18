@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BreathView">
+        <attr name="item_count" format="integer"/>
+        <attr name="first_item_title" format="string"/>
+        <attr name="secod_item_title" format="string"/>
+
+        <attr name="first_item_color" format="color"/>
+        <attr name="secod_item_color" format="color"/>
+
+        <attr name="last_select_item_color_" format="color"/>
+        //int 1 means the first title  int 2 means the second title
+        <attr name="target_title" format="integer"/>
+    </declare-styleable>
+</resources>
